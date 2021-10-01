@@ -1,0 +1,16 @@
+export const LOGO_BONUS_ALT = "Rock, Paper, Scissors, Lizard, Spock";
+export const SCORE = "SCORE";
+export const SCISSORS = "scissors";
+export const SPOCK = "spock";
+export const PAPER = "paper";
+export const LIZARD = "lizard";
+export const ROCK = "rock";
+export const RULES = "RULES";
+export const CLOSE = "close";
+export const YOU_WON = "YOU WON";
+export const YOU_LOSE = "YOU LOSE";
+export const FUTILE = "FUTILE";
+export const YOU_PICKED = "YOU PICKED";
+export const THE_HOUSE_PICKED = "THE HOUSE PICKED";
+export const PLAY_AGAIN = "PLAY AGAIN";
+export const LEADER_BOARD = "Leader Board";

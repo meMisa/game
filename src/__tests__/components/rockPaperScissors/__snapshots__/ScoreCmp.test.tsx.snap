@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test match snapshot 1`] = `
+<div
+  className="justify-content-space-between score-wrapper"
+  data-testid="score"
+>
+  <div
+    className="score-logo-bonus"
+  >
+    <img
+      alt="Rock, Paper, Scissors, Lizard, Spock"
+      src="logo-bonus.svg"
+    />
+  </div>
+  <div
+    className="score-text score-bonus-text-container"
+  >
+    <p>
+      SCORE
+    </p>
+    <div
+      className="dark-text count"
+    >
+      <span>
+        3
+      </span>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,31 @@
+/*!*Mobiles Size xs *!*/
+@media screen and (max-width: 767px) {
+  .rules-wrapper {
+    position: static !important;
+    font-size: 2em !important;
+    margin-top: 30px;
+  }
+}
+
+.rock-paper-scissors {
+  width: fit-content;
+}
+
+.rules-wrapper {
+  right: 0;
+  position: absolute;
+  font-size: 1em;
+  margin-top: 3rem;
+}
+
+.rules-btn {
+  color: white;
+  background: none;
+  border: solid 2px white;
+  border-radius: 10px;
+  padding: 15px 60px;
+  margin: 2rem;
+}
+.modal-open {
+  overflow: hidden;
+}

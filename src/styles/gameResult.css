@@ -1,0 +1,98 @@
+/*!*Mobiles Size *!*/
+@media screen and (max-width: 767px) {
+  .game-result-header {
+    display: none;
+  }
+  .game-result-header-mobile {
+    display: block !important;
+    margin-top: 3rem;
+    z-index: 1;
+  }
+  .result-text-wrapper {
+    margin: 20rem -5rem 0 !important;
+    font-size: 2em !important;
+  }
+  .item-container {
+    margin: 0 29px;
+  }
+}
+
+.game-result-wrapper {
+  font-size: 1.5em;
+  color: white;
+  margin-top: 3rem;
+}
+.pick-img {
+  width: 120px !important;
+  height: 120px !important;
+}
+.result-text {
+  background: white;
+  border-radius: 10px;
+  padding: 18px 0;
+  font-size: 0.5em;
+}
+
+.game-result-header {
+  z-index: 1;
+}
+
+.game-result-header-mobile {
+  display: none;
+}
+
+.item-container {
+  height: fit-content;
+}
+
+@keyframes house {
+  from {
+    background-color: black;
+    opacity: 0;
+    color: black;
+    box-shadow: none;
+  }
+  to {
+    background-color: inherit;
+    opacity: 0.1;
+  }
+}
+.house-part {
+  animation-name: house;
+  animation-duration: 1.5s;
+  animation-direction: alternate;
+}
+
+@keyframes result {
+  from {
+    background-color: black;
+    opacity: 0;
+  }
+  to {
+    background-color: inherit;
+    opacity: 0;
+  }
+}
+.result-text-wrapper {
+  font-size: 1.7em;
+  align-self: center;
+  margin: 2rem;
+  animation-name: result;
+  animation-duration: 2s;
+}
+
+.winner {
+  box-shadow: 0 0 40px 50px hsl(214deg 47% 23%), 0 0 100px 50px #030613;
+  border-radius: 50%;
+  width: fit-content;
+  animation: win 8s forwards;
+}
+
+@keyframes win {
+  0% {
+    box-shadow: none;
+  }
+  100% {
+    box-shadow: 0 0 40px 50px hsl(214deg 47% 23%), 0 0 100px 50px #030613;
+  }
+}

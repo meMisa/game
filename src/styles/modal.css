@@ -1,0 +1,121 @@
+/*!*Mobiles Size xs *!*/
+@media screen and (max-width: 767px) {
+  .modal {
+    width: 574px !important;
+    margin: 0 auto !important;
+    height: inherit !important;
+    padding: 0 4rem !important;
+  }
+
+  .modal-close-button {
+    display: none !important;
+  }
+
+  .modal-header {
+    justify-content: center;
+    margin-bottom: 2rem;
+    padding-top: 3rem;
+  }
+
+  .modal-close-button-wrapper {
+    width: 80%;
+    display: block !important;
+    position: fixed;
+    bottom: 2rem;
+  }
+
+  .modal-close-button-mobile img {
+    width: 30px !important;
+  }
+}
+
+/*X Large Monitor Size xxl and less */
+@media screen and (max-width: 3000px) {
+  .modal-close-button-wrapper {
+    display: none;
+  }
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+}
+
+.modal {
+  z-index: 100;
+  background: white;
+  position: relative;
+  border-radius: 3px;
+  max-width: 580px;
+  padding: 1rem 4rem 3rem 4rem;
+  width: 340px;
+  margin: 12rem auto;
+  height: auto;
+}
+
+.modal-header {
+  font-size: 1.8em;
+  align-items: center;
+}
+
+.modal-close-button,
+.modal-close-button-mobile {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  opacity: 0.7;
+  cursor: pointer;
+  border: none;
+}
+
+button {
+  font-size: 1em;
+  font-weight: 700;
+  border: none;
+  border-radius: 3px;
+  padding: 0.3rem 1rem;
+  margin-left: 0.5rem;
+}
+
+.button-default {
+  background: #247ba0;
+  color: #fff;
+}
+
+.modal-close-button img,
+.modal-close-button-mobile img {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: none;
+  border-radius: 0;
+  padding: 0;
+}
+
+.modal-body img {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: none;
+  border-radius: 0;
+  padding: 0;
+}
